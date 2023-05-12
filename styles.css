@@ -1,0 +1,181 @@
+/*===============Navigation==============*/
+
+.navbar-for-small,.navigation{
+    background-color: black;
+    padding: 0;
+}
+.signup-btn{
+    background-color: white;
+    padding: 2px 8px;
+    border-radius: 30px;
+}
+.signup-btn:hover{
+    background-color: white;
+}
+/*........side icon  details...........*/
+.side-icon-details{
+    display: none;
+}
+.side-icon-details h1{
+    font-weight: 700;
+}
+
+.pd-btn{
+    border: none;
+    background-color: #EEEEEE;
+}
+
+/*============large screen=============*/
+
+.navbar-for-xl{
+    padding:0 8px;
+    display: flex;
+    flex-basis: 70%;
+    margin: auto;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+/*==========Top section========*/
+.top-section{
+    width: 550px;
+    padding: 0 30px 30px 30px;
+    border: 1px solid gray;
+    position:absolute;
+    top: 15%;
+    left: 20%;
+    background-color: white;
+}
+
+.top-section-body h1{
+    font-size:50px;
+}
+.btn-sign-up-drive{
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+}
+.btn-learn-more{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.top-section a::after{
+    content: '';
+    width:0;
+    height: 3px;
+    background:black;
+    position: absolute;
+    bottom: -10px;
+    left:-1px;
+}
+.top-section a:hover::after{
+    width: 100%;
+}
+
+/*============Section-1============*/
+
+.section-1-img{
+    height: 75vh;
+    width: 100%;
+}
+/*========Section-2=============*/
+.section-2{
+    max-width: 100%;
+    height: 30vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.section-2-container{
+    padding: 80px;
+}
+/*===========Section-3===========*/
+
+.section-3,.section-4,.section-5{
+    margin-top: 30px;
+}
+.card-div{
+    margin-right: 30px;
+    border: none;
+}
+.card-footer-div a,.for-bottom{
+    border-bottom: 1px solid rgb(201, 195, 195);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.card-footer-div a:hover,.section-4-div a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+/*============Section-4===========*/
+
+.section-4-div{
+    padding:10px 30px;
+}
+
+
+
+/*===========Section-5================*/
+
+.section-5{
+    background-color: #f7f5f5;
+    height: 40vh;
+    padding-top: 50px;
+
+}
+
+
+/*===============Footer==============*/
+.footer-outer-container{
+    background-color: black;
+}
+/*..............section-1..........*/
+.footer-list li{
+    list-style: none;
+    line-height: 40px;
+}
+
+/*.............section-2............*/
+.footer-btn{
+    border: none;
+    padding: 0;
+}
+
+/*.........section............*/
+.app-store a img{
+    width: 130px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.bottom-text,.bottom-links{
+    font-size: 12px;
+}
+
+/*============media queries=============*/
+
+@media(max-width:1150px) {
+    .top-section{
+        position: relative;
+        left:0px;
+        width: 100%;
+        border: none;
+        padding-left: 810x;
+        margin-left:0px;
+
+    }
+    .top-section h1{
+        font-size: 35px;
+    }
+    .section-1-img{
+        height: 300px;
+    }
+    
+    .bottom-logos img{
+        display:block;
+        position: absolute;
+        left:0;
+    }
+}
+
